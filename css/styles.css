@@ -1,0 +1,450 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+/* Header - NavBar - 100vw */
+
+.full-w-container {
+  background-color: #fff;
+}
+
+/* Container of all in Header */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 15%;
+}
+
+/* Brand image */
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 200px;
+  height: 100px;
+}
+
+/* NavBar & Items */
+.navbar {
+  display: flex;
+  padding: 5% 5%;
+}
+
+.navbar-item {
+  display: flex;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.donate {
+  background: linear-gradient(to bottom, #fbd3e9, #bb377d);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+}
+
+/* SocialBar & Items */
+
+.socialbar {
+  display: flex;
+  font-size: 1.5em;
+  padding: 5% 0;
+}
+
+.social-item {
+  padding: 0 10px;
+}
+
+/* Hero Header Section */
+
+.hero-container {
+  background-color: grey;
+}
+
+.hero {
+  display: flex;
+  height: 594px;
+}
+
+.hero-text {
+  background: transparent;
+  width: 60%;
+  font-size: 3em;
+  padding: 12% 7%;
+  text-align: center;
+}
+
+.hero-btn button {
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #fbd3e9, #bb377d);
+  padding: 7px 15px;
+  font-size: 0.35em;
+  color: #fff;
+}
+
+.hero-image {
+  display: flex;
+  border: 1px solid black;
+  width: 605px;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+/* About Foundation Section */
+
+.about-container {
+  background-color:#ffc75f;
+}
+
+.about-us {
+  display: flex;
+}
+
+.about-us-text {
+  display: flex;
+  flex-wrap: wrap;
+  background: transparent;
+  width: 60%;
+  padding: 5% 7% 0% 7%;
+}
+
+.about-us-text h1 {
+  font-size: 3em;
+  padding: 0 15%;
+}
+
+.about-us-text span {
+  font-size: 1.7em;
+  padding: 0 15%;
+}
+
+.about-us-btn {
+  position: relative;
+  margin: 0 auto;
+  padding: 7% 0;
+}
+
+.about-us-btn button {
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #fbd3e9, #bb377d);
+  padding: 7px 20px;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.about-us-image {
+  display: flex;
+  border: 1px solid black;
+  width: 605px;
+}
+
+/* Donate Section */
+
+.donate-container {
+  background-color:#d789d7;
+}
+
+.donate-wrapper {
+  display: flex;
+}
+
+.donate-image {
+  display: flex;
+  border: 1px solid black;
+  width: 605px;
+}
+
+.donate-text {
+  display: flex;
+  flex-wrap: wrap;
+  background: transparent;
+  width: 60%;
+  padding: 5% 7% 0% 7%;
+}
+
+.donate-text h1 {
+  font-size: 3em;
+  padding: 0 15%;
+}
+
+.donate-text span {
+  font-size: 1.7em;
+  padding: 0 15%;
+}
+
+.donate-btn {
+  position: relative;
+  margin: 0 auto;
+  padding: 7% 0;
+}
+
+.donate-btn button {
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #ffe259, #ffa751);
+  padding: 7px 20px;
+  font-size: 1.1em;
+  color: #000000;
+}
+
+/* Family-Assistance Section */
+
+.family-assistance-container {
+  background: #fff;
+}
+
+.family-assistance-wrapper {
+  display: flex;
+}
+
+.family-assistance-text {
+  display: flex;
+  flex-wrap: wrap;
+  background: transparent;
+  padding: 5% 7% 0% 7%;
+  justify-content: center;
+  text-align: center;
+}
+
+.family-assistance-text h1 {
+  font-size: 3em;
+  padding: 0 15%;
+}
+
+.family-assistance-text span {
+  font-size: 1.7em;
+  padding: 0 15%;
+}
+
+.family-assistance-btn {
+  padding: 3% 0
+}
+
+.family-assistance-btn button {
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #ffe259, #ffa751);
+  padding: 7px 20px;
+  font-size: 1.1em;
+  color: #000000;
+}
+
+/* Cards */
+
+.cards-container {
+  background: #fff;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-text {
+  position: relative;
+  margin: 0 auto;
+  background: transparent;
+  padding: 5% 7%;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.cards-text h1 {
+  font-size: 3em;
+}
+
+.cards-text span {
+  font-size: 2.5em;
+}
+
+.cards-board {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 15%;
+}
+
+.card-body {
+  display: flex;
+  width: 25%;
+  box-shadow: 3px 3px 3px 3px #ccc;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.card-head {
+  font-size: 1.4em;
+  color: #fff;
+  padding: 0 10px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.purple {
+  background-color: #d789d7;
+}
+
+.blue {
+  background-color: #23689b;
+}
+
+.green {
+  background-color: #16c79a;
+}
+
+.orange {
+  background-color: #ffa751;
+}
+
+.card-content {
+  margin:0;
+  padding: 0;
+}
+
+.card-p1 {
+  font-size: 0.8em;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.card-p2 {
+  font-size: 0.8em;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.card-p3 {
+  font-size: 0.8em;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.card-h {
+  margin: 0;
+  font-size: 3em;
+  font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: -1px;
+}
+
+.card-footer {
+  margin: 0% auto;
+  padding: 0;
+  width: 50px;
+  height: 7px;
+}
+
+/* test Section */
+
+.card-h1 {
+  padding-top: 0;
+  margin: 0px;
+}
+
+/* Cards Buttons */
+
+.cards-btn {
+  margin: 0 auto;
+  padding-left: 9px;
+}
+
+.cards-btn button {
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #fbd3e9, #bb377d);
+  padding: 7px 20px;
+  font-size: 1.1em;
+  color: #000000;
+  margin: 15% 8px;
+}
+
+/* Sponsors Section */
+
+.sponsors-container {
+  background: #fff;
+  padding: 5% 15%;
+}
+
+.sponsors-container h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+}
+
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5% 5%;
+}
+
+.sponsors-item {
+  width: 25%;
+  display: flex;
+  align-content: center;
+}
+
+.sponsors-item img {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.sponsor-alc {
+  width: 70%;
+}
+
+.sponsor-basiq {
+  width: 60%;
+}
+
+.sponsor-blas {
+  display: flex;
+  align-self: center;
+  width: 50%;
+  height: 45%;
+}
+
+.sponsor-filmdust {
+  display: flex;
+  align-self: center;
+  width: 50%;
+  height: 45%;
+}
+
+/* Sponsors Button */
+
+.sponsors-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsors-btn button {
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #ffe259, #ffa751);
+  padding: 7px 20px;
+  font-size: 1.1em;
+  color: #000000;
+  margin: 5% 8px;
+}
