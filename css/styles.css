@@ -67,6 +67,14 @@ html, body {
   padding: 0 10px;
 }
 
+.social-item a {
+  text-decoration: none;
+}
+
+.social-item a:visited {
+    color: inherit;
+}
+
 /* Hero Header Section */
 
 .hero-container {
@@ -447,4 +455,98 @@ html, body {
   font-size: 1.1em;
   color: #000000;
   margin: 5% 8px;
+}
+
+/* Footer Section */
+
+.footer-container {
+  background: black;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-wrapper {
+  display: flex;
+  height: 400px;
+}
+
+/* Left side of Footer */
+.left-footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  padding: 5% 3%;
+}
+
+.left-footer-in-wrapper {
+  display: flex;
+  width: 100%;
+  font-size: 2em;
+}
+
+.left-footer-in-wrapper a {
+  text-decoration: none;
+}
+
+.left-footer-in-wrapper a:visited {
+  color: inherit;
+}
+
+.footer-item {
+  width: 33.33%;
+  padding-bottom: 5%;
+}
+
+.left-footer-span {
+  font-size: 1.9em;
+}
+
+/* Right side of Footer */
+.right-footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  width: 35%;
+}
+
+.right-footer-in-wrapper {
+  display: flex;
+  font-size: 2em;
+  width: 100%;
+}
+
+.info-items {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.3em;
+  padding: 3% 0;
+  width: 100%;
+}
+
+.info-data {
+  width: 100%;
+}
+
+.footer-social-item {
+  display: flex;
+  font-size: 1.5em;
+  width: 33.33%;
+  padding: 5% 0;
+}
+
+.footer-social-item a {
+  text-decoration: none;
+}
+
+.footer-social-item a:visited {
+  color: inherit;
+}
+
+/* Copyright section */
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 1.6em;
+  padding: 0 0 1.5% 0;
 }
