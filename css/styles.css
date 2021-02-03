@@ -446,29 +446,44 @@ nav {
 .sponsors-item img {
   max-width: 70%;
   margin: 0 auto;
+  align-self: center;
 }
 
-.sponsor-alc {
+.sponsor-ashlynso {
+  display: flex;
+  width: 50%;
+  height: 50%;
+}
+
+.sponsor-keepface {
+  width: 50%;
+  height: 20%;
+}
+
+.sponsor-nystern {
   width: 70%;
 }
 
-.sponsor-basiq {
+.sponsor-dewitt {
   width: 60%;
 }
 
-.sponsor-blas {
-  display: flex;
-  align-self: center;
+.sponsor-scarolaphoto {
   width: 50%;
-  height: 45%;
 }
 
-.sponsor-filmdust {
-  display: flex;
-  align-self: center;
+.sponsor-shamans {
   width: 50%;
-  height: 45%;
 }
+
+.sponsor-hairdecor-nyc {
+  width: 70%;
+}
+
+.sponsor-marinetoys {
+  width: 60%;
+}
+
 
 /* Sponsors Button */
 
