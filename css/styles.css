@@ -64,7 +64,8 @@ nav {
 }
 
 .donate {
-  background: linear-gradient(to bottom, #fbd3e9, #bb377d);
+  /* background: linear-gradient(to bottom, #fbd3e9, #bb377d); */
+  background: linear-gradient(to bottom, #ffe259, #ffa751);
   border: none;
   border-radius: 20px;
   color: #fff;
@@ -113,7 +114,8 @@ nav {
 .hero-btn button {
   border: none;
   border-radius: 20px;
-  background: linear-gradient(to bottom, #fbd3e9, #bb377d);
+  /* background: linear-gradient(to bottom, #fbd3e9, #bb377d); */
+  background: linear-gradient(to bottom, #ffe259, #ffa751);
   padding: 7px 15px;
   font-size: 0.35em;
   color: #fff;
