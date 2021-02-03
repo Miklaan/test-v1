@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -7,6 +8,7 @@ html, body {
   margin: 0;
   line-height: 1.5;
   font-size: 14px;
+  font-family: 'Comic Neue', cursive;
 }
 
 a {
@@ -58,7 +60,6 @@ nav {
   display: flex;
   font-size: 1.1em;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
   padding: 0 20px;
   align-items: center;
 }
@@ -293,7 +294,6 @@ nav {
   padding: 5% 7%;
   text-align: center;
   justify-content: center;
-  font-family: "Roboto", sans-serif;
 }
 
 .cards-text h1 {
@@ -357,21 +357,18 @@ nav {
 .card-p1 {
   font-size: 0.8em;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
 .card-p2 {
   font-size: 0.8em;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
 .card-p3 {
   font-size: 0.8em;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -380,7 +377,6 @@ nav {
   margin: 0;
   font-size: 1.5em;
   font-weight: bolder;
-  font-family: 'Roboto', sans-serif;
   letter-spacing: -1px;
 }
 
@@ -427,7 +423,6 @@ nav {
 .sponsors-container h1 {
   display: flex;
   justify-content: center;
-  font-family: 'Roboto', sans-serif;
   font-size: 3em;
 }
 
@@ -446,29 +441,44 @@ nav {
 .sponsors-item img {
   max-width: 70%;
   margin: 0 auto;
+  align-self: center;
 }
 
-.sponsor-alc {
+.sponsor-ashlynso {
+  display: flex;
+  width: 50%;
+  height: 50%;
+}
+
+.sponsor-keepface {
+  width: 50%;
+  height: 20%;
+}
+
+.sponsor-nystern {
   width: 70%;
 }
 
-.sponsor-basiq {
+.sponsor-dewitt {
   width: 60%;
 }
 
-.sponsor-blas {
-  display: flex;
-  align-self: center;
+.sponsor-scarolaphoto {
   width: 50%;
-  height: 45%;
 }
 
-.sponsor-filmdust {
-  display: flex;
-  align-self: center;
+.sponsor-shamans {
   width: 50%;
-  height: 45%;
 }
+
+.sponsor-hairdecor-nyc {
+  width: 70%;
+}
+
+.sponsor-marinetoys {
+  width: 60%;
+}
+
 
 /* Sponsors Button */
 
@@ -492,7 +502,6 @@ nav {
 .footer-container {
   background: black;
   color: #fff;
-  font-family: "Roboto", sans-serif;
 }
 
 .footer-wrapper {
