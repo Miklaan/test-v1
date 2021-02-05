@@ -1,0 +1,119 @@
+.wave-container {
+  position: relative;
+  display: flex;
+}
+
+.wave-itself {
+  position: absolute;
+  width: 100%;
+}
+
+.wave-text-container {
+  position: relative;
+  margin: 2% auto;
+  height: 0;
+}
+
+.wave-text span {
+  font-size: 3.5em;
+}
+
+.wave-text p {
+  margin: 0;
+}
+
+.small-wave-text {
+  font-size: 0.79em;
+}
+
+#person-in-circle {
+  margin: 12% 0;
+}
+
+.person-in-circle {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-circle {
+  display: flex;
+  justify-content: center;
+}
+
+.person-in-circle {
+  position: relative;
+  display: flex;
+}
+
+.person-circle {
+  display: flex;
+}
+
+.person-circle img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.person-circle-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.person-circle-text span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+
+.person-circle-text p {
+  margin: 0;
+}
+
+.role-of-person p {
+  margin: 0;
+  font-size: 0.45em;
+}
+
+.person-in-container {
+  position: absolute;
+}
+
+.person-in-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: transparent;
+  padding: 0 22%;
+  position: relative;
+  height: 0;
+  bottom: 70px;
+}
+
+.person-in-content span {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.person-in-content p {
+  margin: 0;
+  font-size: 2.3em;
+}
+
+.foundation-link p {
+  position: relative;
+  margin: 0 0 0 100%;
+}
+
+.logo-in-contact {
+  display: flex;
+}
+
+.logo-in-contact img {
+  width: 25%;
+  margin: 5% auto 0 auto;
+}
