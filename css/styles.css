@@ -676,3 +676,50 @@ nav {
   font-size: 1.6em;
   padding: 0 0 1.5% 0;
 }
+
+/* Sticky FLag SupporUs */
+
+#sticky-link {
+  top: 350px;
+  color: #fff;
+  background-color: #e135e2;
+  border: none;
+}
+
+.sticky-link {
+position: fixed;
+margin: 0;
+padding: 6px 13px 8px 13px;
+text-decoration: none;
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+border-style: solid;
+display: block;
+z-index: 100000;
+}
+
+#sticky-link:hover {
+  background-color: #f15861;
+  -moz-box-shadow: -3px -3px 5px 2px #ccc;
+  -webkit-box-shadow: -3px -3px 5px 2px #ccc;
+  box-shadow: -3px -3px 5px 2px #ccc;
+}
+
+.rlink {
+right: -1px;
+cursor: pointer;
+-webkit-transform-origin: 100% 100%;
+-moz-transform-origin: 100% 100%;
+-o-transform-origin: 100% 100%;
+-ms-transform-origin: 100% 100%;
+-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+transform: rotate(-90deg);
+-moz-border-radius-topright: 10px;
+border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+border-top-left-radius: 10px;
+}
