@@ -421,7 +421,88 @@ nav {
 
 /* Sponsors Section */
 
-.sponsors-container {
+.slideshow {
+  display: flex;
+  padding: 5% 15%;
+}
+
+.hidder-left {
+  width: 60%;
+  height: 87px;
+  position: relative;
+  background: #fff;
+  z-index: 30;
+  left: 10%;
+}
+
+.hidder-right {
+  width: 60%;
+  height: 87px;
+  position: relative;
+  background: #fff;
+  z-index: 30;
+  right: 10%;
+}
+
+.sponsors-logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.pos-logo:nth-child(1),
+.pos-logo:nth-child(8) {
+  transition: width 0.5s, opacity 0.5s;
+}
+
+.fade-out {
+  opacity: 0;
+  width: 0;
+}
+
+.sponsors-logo a {
+  display: flex;
+  width: 33.33%;
+  justify-content: center;
+}
+
+.sponsors-logo img {
+  min-width: 70%;
+}
+
+.sponsor-ashlynso {
+  width: 70%;
+}
+
+.sponsor-dewitt {
+  width: 70%;
+}
+
+.hairdecor-nyc {
+  width: 80%;
+}
+
+.keepface-logo {
+  width: 70%;
+}
+
+.marine-toys-logo {
+  width: 100%;
+}
+
+.nyu-stern-logo {
+  width: 80%;
+}
+
+.scarola-photo-logo {
+  width: 70%;
+}
+
+.shamans-logo {
+  width: 70%;
+}
+
+/* .sponsors-container {
   background: #fff;
   padding: 5% 15%;
 }
@@ -483,7 +564,7 @@ nav {
 
 .sponsor-marinetoys {
   width: 65%;
-}
+} */
 
 
 /* Sponsors Button */
